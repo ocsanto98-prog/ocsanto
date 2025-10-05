@@ -20,7 +20,9 @@
         }
         </style>
         <title></title>
-		 <title>WebGIS dengan Judul</title>
+            </style>
+        <title></title>
+ <title>WebGIS dengan Judul</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -44,6 +46,11 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.3);
       z-index: 1000;
     }
+  </style>
+</head>
+<body>
+    
+        
     </head>
     <body>
         <div id="map">
@@ -91,7 +98,7 @@
         }
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-2.438791098571885,121.62099157048476],[-2.262874206920573,121.90999789248335]]);
+        }).fitBounds([[-2.5227582759961176,121.66958662321063],[-2.1789070294963406,121.86140283975747]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
